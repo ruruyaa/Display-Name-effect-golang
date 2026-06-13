@@ -5,7 +5,7 @@ Welcome to the **Discord Display Name Styles** Golang document workspace. This w
 ## Credits & Verification
 - **Created & maintained by**: [KyronixStudio](https://github.com/kyronixstudio)
 - **Dev**: `dray.me`, `6fck`, `2f9r`
-- 
+  
 ---
 
 ## Repository Versions
@@ -80,4 +80,4 @@ In our Golang engine, the display name styles system operates on a highly concur
 The `go/DeepDetails` folder contains sub-files detailing every aspect of the system:
 - **FONT**: Enumerates all 12 fonts (Bangers, BioRhyme, Cherry Bomb, Chicle, Compagnon, Museo Moderno, Neo-Castel, Pixelify Sans, Ribes, Sinistre, GG Sans, and Zilla Slab).
 - **EFFECTS**: Describes visual styles (Solid, Gradient, Neon, Toon, Pop, Glow).
-- 
+  
