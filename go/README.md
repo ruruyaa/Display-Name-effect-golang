@@ -121,3 +121,4 @@ DISCORD_PROFILE_STYLE_REQUEST_DELAY_MS="1500"  # Delay spacing between compatibi
 
 ```
 
+© Ruru All Rights Reserved
