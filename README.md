@@ -5,7 +5,13 @@ Welcome to the **Discord Display Name Styles** Golang document workspace. This w
 ## Credits & Verification
 - **Created & maintained by**: [KyronixStudio](https://github.com/kyronixstudio)
 - **Dev**: `dray.me`, `6fck`, `2f9r`
-- **GlowForNodejs**: [GlowForNodejs](https://github.com/kyronixstudio/GlowForNodejs)
+- 
+---
+
+## Repository Versions
+- **GoLang**: [Display-Name-effect-golang](https://github.com/ruruyaa/Display-Name-effect-golang.git)
+- **NodeJs**: [GlowForNodejs](https://github.com/kyronixstudio/GlowForNodejs.git)
+- **TS,JS,PY**: [Display-Name-effect](https://github.com/dray-me/Display-Name-effect.git)
 
 ---
 
