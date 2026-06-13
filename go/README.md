@@ -3,12 +3,12 @@ This directory contains the full concurrent **Golang** implementation of the Dis
 ## Credits & Partners
  * **Main Server Partner**: KYRONIX
  * **High Partner**: Ruru Aka 2f9r
-## 🏗️ Architecture Design
+##  Architecture Design
 The Golang implementation mirrors the layered architecture of the TypeScript/JavaScript systems, but leverages Go's powerful concurrency model:
  1. **Transport Layer (DiscordProfileAPI)**: Safe, concurrent-ready network caller wrapped around Go's native net/http package. Supports exponential backoffs, rate limit evaluation, retry offsets, and raw logger callbacks.
  2. **Business Logic Layer (ProfileStyleService)**: Governs style resolution coordinates (JSON paths, custom fields), manages rotation state databases via local files, validates payloads, and handles discovery.
  3. **Startup Integration Layer (Ready Event Hook)**: Hooks into discordgo's standard event handlers on bot login, executing safely inside a lightweight goroutine (go func()) so it never blocks your bot's command listeners.
-## 🛠️ Complete Installation and Setup
+## » Complete Installation and Setup
 ### 1. Requirements Installation
 The module relies on the standard discordgo package for the bot session. Ensure it is installed in your Go module:
 ```bash
@@ -18,7 +18,7 @@ go get [github.com/bwmarrin/discordgo](https://github.com/bwmarrin/discordgo)
 ### 2. Integration inside a typical discordgo Bot
 Import your core structs and trigger the service as a background goroutine inside your client's Ready handler:
 ```go
-// File: main.go
+// File: gomain.go
 package main
 
 import (
@@ -106,7 +106,7 @@ func runPresetsTask(token string) {
 }
 
 ```
-## 📊 Environment Configurations
+## » Environment Configurations
 You can drive the Go service parameters by declaring direct environment variables inside your container deployment environment (e.g., in your Pterodactyl panel startup arguments or a .env file):
 ```env
 # General switches
