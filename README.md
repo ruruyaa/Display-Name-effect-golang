@@ -71,7 +71,7 @@ In our Golang engine, the display name styles system operates on a highly concur
 
 1. **Transport Layer (`DiscordProfileAPI`)**: Focuses on rate-limiting, exponential backoff, raw response capture, parsed JSON structures, diagnostic tracking, and authenticated requests using Go's native `net/http`.
 2. **Business Logic Layer (`ProfileStyleService`)**: Resolves styles, loads/saves working configurations, runs startup capability discovery, and manages preset rotations.
-3. **Startup Integration Layer (`Ready` Event Hook)**: Hooks into the bot's standard websocket startup flow as a safe, concurrent background Goroutine. It is completely non-blocking, so API failures or rate limits do not block standard bot features (music commands, moderation, dashboards).
+3. **Startup Integration Layer (`Ready` Event Hook)**: Hooks into the bot's standard websocket startup flow as a safe, concurrent background Goroutine. It is completely non-blocking, so API failures or rate limits do not block standard bot features (music commands, moderation, dashboards)..
 
 ---
 
