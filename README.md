@@ -44,8 +44,20 @@ Use the dashboard below to jump to specific Golang modules:
 
 Explore the file hierarchy interactively:
 
-[project-root](./)  
-├── [README.md](./README.md) *(Root entry point - this file)* └── [go/](./go/) *(Golang Project Directory)* ├── [gomain.go](./go/gomain.go) *(Standard Golang concurrent service)* ├── [README.md](./go/README.md) *(Golang integration guide & discordgo setup)* ├── [PROMPT.md](./go/PROMPT.md) *(AI code prompt for custom Golang generation)* └── [DeepDetails/](./go/DeepDetails/) *(Golang deep-dive details)* ├── [FONT.md](./go/DeepDetails/FONT.md) *(Typography database: IDs 1-12)* ├── [EFFECTS.md](./go/DeepDetails/EFFECTS.md) *(Visual effects: Solid, Glow, Neon)* ├── [COLORS.md](./go/DeepDetails/COLORS.md) *(RGB decimal/hex color index)* ├── [ENDPOINTS.md](./go/DeepDetails/ENDPOINTS.md) *(Golang REST API endpoints)* ├── [EXPERIMENT.md](./go/DeepDetails/EXPERIMENT.md) *(Profile experiment gates)* └── [COMPATIBILITY.md](./go/DeepDetails/COMPATIBILITY.md) *(discordgo, Arikawa, Disgo support)* ---
+[project-root](./)<br>
+├── [README.md](./README.md) *(Root entry point - this file)*<br>
+└── [go/](./go/) *(Golang Project Directory)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [gomain.go](./go/gomain.go) *(Standard Golang concurrent service)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [README.md](./go/README.md) *(Golang integration guide & discordgo setup)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── [PROMPT.md](./go/PROMPT.md) *(AI code prompt for custom Golang generation)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── [DeepDetails/](./go/DeepDetails/) *(Golang deep-dive details)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── [FONT.md](./go/DeepDetails/FONT.md) *(Typography database: IDs 1-12)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── [EFFECTS.md](./go/DeepDetails/EFFECTS.md) *(Visual effects: Solid, Glow, Neon)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── [COLORS.md](./go/DeepDetails/COLORS.md) *(RGB decimal/hex color index)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── [ENDPOINTS.md](./go/DeepDetails/ENDPOINTS.md) *(Golang REST API endpoints)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── [EXPERIMENT.md](./go/DeepDetails/EXPERIMENT.md) *(Profile experiment gates)*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── [COMPATIBILITY.md](./go/DeepDetails/COMPATIBILITY.md) *(discordgo, Arikawa, Disgo support)*
+
 
 ## Key System Design Architecture
 
