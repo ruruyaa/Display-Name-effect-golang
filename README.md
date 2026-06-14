@@ -4,7 +4,7 @@ Welcome to the **Discord Display Name Styles** Golang document workspace. This w
 
 ## Credits & Verification
 - **Created & maintained by**: [KyronixStudio](https://github.com/kyronixstudio)
-- **Dev**: `dray.me`, `6fck`, `2f9r`
+- **Dev**: `1f8r`, `dray-me`, `6fck`
   
 ---
 
